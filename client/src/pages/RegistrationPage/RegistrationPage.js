@@ -15,9 +15,9 @@ const RegistrationPage = (props) => {
 
     return (
         <div className={styles.signUpPage}>
-            <div className={styles.signUpContainer}>
+           <div className={styles.signUpContainer}>
                 <div className={styles.headerSignUpPage}>
-                    <img src={`${CONSTANTS.STATIC_IMAGES_PATH}logo.png`} alt="logo"/>
+                    <Link to='/'><img src={`${CONSTANTS.STATIC_IMAGES_PATH}logo.png`} alt="logo"/></Link>
                     <div className={styles.linkLoginContainer}>
                         <Link to='/login' style={{textDecoration: 'none'}}><span>Login</span></Link>
                     </div>
